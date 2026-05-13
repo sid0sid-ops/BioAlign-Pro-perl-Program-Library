@@ -1,0 +1,61 @@
+    <nav
+        class="sticky top-0 z-50 bg-white/80 dark:bg-[#212121]/80 backdrop-blur-lg border-b border-gray-200 dark:border-[#333333] px-6 py-4 flex items-center justify-between shadow-sm relative shrink-0">
+        <div class="flex items-center gap-3">
+            <!-- Perl Camel mini logo -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="w-10 h-10 shrink-0 drop-shadow-md">
+                <circle cx="100" cy="100" r="95" fill="#39015c"/>
+                <ellipse cx="95" cy="130" rx="42" ry="28" fill="#f5c842"/>
+                <rect x="105" y="95" width="18" height="38" rx="9" fill="#f5c842"/>
+                <ellipse cx="120" cy="88" rx="16" ry="13" fill="#f5c842"/>
+                <ellipse cx="132" cy="94" rx="8" ry="6" fill="#e6b030"/>
+                <circle cx="136" cy="95" r="2" fill="#39015c"/>
+                <circle cx="124" cy="84" r="3" fill="#39015c"/>
+                <circle cx="125" cy="83" r="1" fill="white"/>
+                <ellipse cx="116" cy="77" rx="5" ry="7" fill="#f5c842"/>
+                <ellipse cx="80" cy="103" rx="18" ry="16" fill="#f5c842"/>
+                <ellipse cx="112" cy="108" rx="14" ry="12" fill="#f5c842"/>
+                <rect x="62" y="152" width="12" height="26" rx="6" fill="#f5c842"/>
+                <rect x="80" y="152" width="12" height="30" rx="6" fill="#f5c842"/>
+                <rect x="100" y="152" width="12" height="26" rx="6" fill="#f5c842"/>
+                <rect x="118" y="152" width="12" height="30" rx="6" fill="#f5c842"/>
+                <path d="M55 125 Q40 115 42 100 Q44 88 52 90" stroke="#f5c842" stroke-width="5" fill="none" stroke-linecap="round"/>
+            </svg>
+            <div class="flex flex-col">
+                <span class="text-[9px] font-mono text-gray-500 tracking-widest uppercase leading-none mb-1">PERL SCRIPT
+                    LIBRARY</span>
+                <h1 class="text-xl font-bold tracking-tight leading-none pt-0 mt-0 text-black dark:text-white mb-1">
+                    BioAlign<span class="text-purple-600 dark:text-purple-400 transition-colors duration-300">-Pro</span>
+                </h1>
+                <span class="text-[0.6rem] italic text-gray-500 font-serif tracking-wide leading-relaxed animate-motto">
+                    "Decoding the logic, one line at a time."
+                </span>
+            </div>
+        </div>
+        <div class="flex items-center gap-4 text-sm font-medium text-gray-500 dark:text-gray-400">
+            <button id="themeToggle"
+                class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10 transition-colors focus:outline-none bg-gray-100 dark:bg-[#3d3d3d]/50 backdrop-blur"
+                title="Toggle Light/Dark Theme">
+                <i id="themeIcon" class="fa-solid fa-moon text-black dark:text-white"></i>
+            </button>
+            <button id="mobileSearchBtn"
+                class="hidden md:flex lg:hidden w-8 h-8 items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10 transition-colors focus:outline-none bg-gray-100 dark:bg-[#3d3d3d]/50 backdrop-blur"
+                title="Search Programs">
+                <i class="fa-solid fa-search text-black dark:text-white"></i>
+            </button>
+            <div class="hidden md:flex items-center gap-4">
+                <a href="https://sid0sid-ops.github.io/BioAlign-Pro-Homepage/"
+                    class="flex items-center gap-2 px-3 py-1 hover:bg-black/5 dark:hover:bg-white/10 hover:text-black dark:hover:text-white rounded-full transition-colors focus:outline-none"
+                    title="Home">
+                    <i class="fa-solid fa-house"></i> Home
+                </a>
+                <a href="https://sid0sid-ops.github.io/BioAlign-Pro-Contact/"
+                    class="px-3 py-1 bg-gray-100 dark:bg-[#212121] hover:bg-black/5 dark:hover:bg-white/10 text-black dark:text-white rounded-full transition-colors border border-gray-200 dark:border-[#333333]">Contact</a>
+            </div>
+            <button id="mobileMenuBtn"
+                class="md:hidden w-8 h-8 flex flex-col items-center justify-center gap-1.5 focus:outline-none hover:bg-black/10 dark:hover:bg-white/10 rounded-full shrink-0">
+                <span class="w-4 h-0.5 bg-gray-700 dark:bg-gray-300 transition-all menu-line-1"></span>
+                <span class="w-4 h-0.5 bg-gray-700 dark:bg-gray-300 transition-all menu-line-2"></span>
+                <span class="w-4 h-0.5 bg-gray-700 dark:bg-gray-300 transition-all menu-line-3"></span>
+            </button>
+        </div>
+    </nav>

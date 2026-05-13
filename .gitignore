@@ -1,0 +1,22 @@
+# Git ignore — Perl BioAlign-Pro Project
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+*.tmp
+*.log
+TEMP_*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
